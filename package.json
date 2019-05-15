@@ -1,0 +1,29 @@
+{
+  "name": "agillagain-shower",
+  "version": "1.0.0",
+  "description": "Simple website for invite, rsvp, and other shower stuff",
+  "engines": {
+    "node": "11.0.0",
+    "npm": "6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feminaprovita/agillagain-shower.git"
+  },
+  "scripts": {
+    "start": "node server",
+    "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"
+  },
+  "author": "Claire Gilligan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feminaprovita/agillagain-shower/issues"
+  },
+  "homepage": "https://github.com/feminaprovita/agillagain-shower#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  }
+}
