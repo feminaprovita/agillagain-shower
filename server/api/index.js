@@ -1,6 +1,14 @@
 const router = require('express').Router()
 module.exports = router
 
+router.get('/', (req, res, next) => {
+  try {
+    res.send('../../public/index.html')
+  } catch (err) {
+    next(err)
+  }
+})
+
 router.get('/invite', (req, res, next) => {
   try {
     res.send('../../client/components/invite.js')

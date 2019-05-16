@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 const Invite = () => (
   <div id='invite'>
     <h1>We're throwing the happy couple a Jersey shower!</h1>
+    <p><img src='../../public/couple.jpg' alt='Theresa and Adam' /></p>
     <p>Because having a Charlotte wedding makes perfect sense for them,<br />but we want to celebrate on our turf!</p>
     <p>(And, realistically, it's just a big party, nothing girly, <span id='men-too'>so men are invited, too</span>!)</p>
     <p>No gifts, please (they're flying home!), but we'll have a place for you to make
